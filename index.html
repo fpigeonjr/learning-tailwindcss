@@ -8,24 +8,30 @@
     <link href="/css/tailwind.css" rel="stylesheet" />
   </head>
   <body class="bg-gray-100">
-    <div class="px-8 py-12">
-      <img class="h-10" src="/img/logo.svg" alt="workcation" />
+    <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl">
+      <img class="h-10" src="/img/logo.svg" alt="workcation logo" />
       <img
-        class="mt-6 rounded-lg shadow-xl"
+        class="
+          mt-6
+          rounded-lg
+          shadow-xl
+          sm:mt-8 sm:h-64 sm:w-full sm:object-cover
+          object-center
+        "
         src="/img/beach-work.jpeg"
         alt="woman vacation on beach"
       />
-      <h1 class="mt-6 text-2xl font-bold text-gray-900">
+      <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl">
         You can work from anywhere.
         <span class="text-indigo-500">Take advantage of it.</span>
       </h1>
-      <p class="mt-2 text-gray-600">
+      <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem cumque
         assumenda inventore exercitationem molestias! Facere non suscipit
         tempore culpa ex maiores voluptate placeat nesciunt. Qui consectetur vel
         commodi nam possimus.
       </p>
-      <div class="mt-4">
+      <div class="mt-4 sm:mt-6">
         <a
           class="
             inline-block
@@ -39,6 +45,7 @@
             tracking-wider
             font-semibold
             text-sm
+            sm:text-base
           "
           href="#"
           >Book your escape</a
