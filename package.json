@@ -1,0 +1,26 @@
+{
+  "name": "learning-tailwindcss",
+  "version": "1.0.0",
+  "description": "## From Zero to Production",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpigeonjr/learning-tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpigeonjr/learning-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/fpigeonjr/learning-tailwindcss#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.6.2"
+  }
+}
